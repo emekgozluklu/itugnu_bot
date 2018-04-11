@@ -165,12 +165,6 @@ def itugnubot(updates, last_update_id):
         		send_message("elif bye", chat_id)
         	if text == "/events" or text == "/events@itugnu_bot":
                 print_events(chat)
-            elif text == "/yavşa":
-            	send_message("İHSAN BASKAN HEYKELİNİ YAPSAK DAŞŞAĞINA BETON YETMEZ BE", chat)
-
-            elif text == "/kutla":
-            	message="iyi bayramlar emek\niyi bayramlar ihsan\niyi bayramlar kobra sercan\niyi bayramlar ayberkohhh\niyi bayramlar arın\niyi bayramlar batuhan\niyi bayramlar muhammed\nhepinizin bayramı mübkutlu olsun"
-            	send_message(message,chat)
             elif text == "/misyon" or text == "/misyon@itugnu_bot":
                 print_misyon(chat)
             elif text == "/addevent" or text == "/addevent@itugnu_bot":
